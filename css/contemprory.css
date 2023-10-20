@@ -1,0 +1,270 @@
+body{
+  background-image:url("../images/dance.png.jpg");
+  background-position: 0px;
+  background-size: 100% 100%;
+  height: 300vh;
+  margin: 0px;
+  padding: 0px;
+ }
+ *{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: 100vh;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 30px;
+  color: aliceblue;
+}
+.navbar{
+  width: 100%;
+  height: 20px;
+  margin: auto;
+  display: flex;
+}
+.menu-btn{
+  font-size: 25px;
+  color: white;
+}
+.menu-btn:hover{
+  box-shadow: 2px 2px 15px 2px #ff77cd ;
+  transition: 0.5ms;
+  border: 2px solid #ff77cd ;
+  padding: 7px 7px;
+  border-radius: 50%;
+}
+.logo{
+  width:220px;
+  height: 200px;
+  cursor: pointer;
+  border:1px solid #ff77cd;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px 1px #ff77cd;
+  margin-left: 5x;
+}
+nav{
+  flex:1;
+  padding-left:60px ;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color:#333;
+}
+
+
+ .header-title{
+     text-align: center;
+     font-size: 60px;
+     margin-top: 40px;
+     margin-left: auto;
+     margin-right: auto;
+     color: aliceblue;
+     font-style: bold;
+ }
+ .header-description{
+     font-size: 15px;
+     text-align: center;
+     color: aliceblue;
+     font-size: 20px;
+     font-style: italic;
+ }
+ .header-about{
+     margin-left: 10px;
+     font-size: 15px;
+     color: aliceblue;
+     text-align: center;
+   padding-top: 10px;
+ }
+
+ .courses-card{
+     border:#996633 double;
+     margin-left: 3px;
+     margin-top: 100px;
+     border-radius: 10px;
+     width: 300px;
+     margin-left: 10PX;
+     margin-right: 10PX;
+     box-shadow: white;
+     font-style: inherit;
+ }
+ .courses-card:hover{
+     box-shadow: 0px 0px 10px gold;
+     padding: 7px 25px;
+     transition: 0.5s;
+ }
+ 
+.courses{
+ font-size: 30px;
+ color: aliceblue;
+ margin-left:10PX;
+ padding:10px ;
+  text-align: center;
+}
+
+.about-courses{
+ font-size: 20px;
+
+ color: aliceblue;
+ text-align: center;
+}
+.courses-container{
+ display: flex;
+     flex-wrap: wrap;
+     justify-content: start;
+     margin-top: 200px;
+     padding-bottom: 400px; 
+     text-align: center;
+     margin-left: 250px;
+}
+
+
+
+.what-dance{
+ font-size: 30px;
+ color: aliceblue;
+ padding-left: 35px;
+ margin-top: 180px;
+ margin-left: 100px;
+ font-style: oblique;
+}
+.about-dance{
+ font-size: 20px;
+ color: aliceblue;
+ padding-left: 50px;
+ padding-top: 3px;
+ margin-top: 4px;
+ text-align: start;
+ font-style: italic;
+}
+.why-dance{
+ display: flex;
+ justify-content: end;
+ align-items: end;
+ font-size: 30px;
+ color: aliceblue;
+ padding-right: 160px;
+ padding-top: 90px;
+ margin-top:100px;
+ margin-right: 50px;
+ text-align: center;
+ font-style: oblique;
+}
+.about-dance-para2{
+ display: flex;
+ justify-content: end;
+ align-items: end;
+ font-size: 20px;
+ color: aliceblue;
+ padding-left: 10px;
+ padding-top: 3px;
+ margin-top: 4px;
+ text-align: center;
+ margin-right: 100px;
+ font-style: italic;
+}
+.dance-tips{
+ font-size: 30px;
+ color: aliceblue;
+ padding-left: 35px;
+ margin-top: 160px;
+ margin-left: 60px;
+ font-style: oblique;
+}
+.about-tips{
+ font-size: 20px;
+ color: aliceblue;
+ padding-left: 10px;
+ padding-top: 3px;
+ margin-top: 4px;
+ margin-left: 80px;
+ text-align: start;
+ font-style: italic;
+}
+.tips-heading{
+  font-size: 23px;
+  color: aliceblue;
+  padding-left: 10px;
+  padding-top: 3px;
+  margin-top: 4px;
+  margin-left: 80px;
+  text-align: start;
+  font-style: italic;
+}
+.move-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+  color: aliceblue;
+  margin-top: 200px;
+  padding: auto;
+
+}
+.about-move-heading{
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+}
+.footer{
+  margin-top: 60px;
+  width: 83%;
+  padding: 100px 10%;
+  background: #333;
+  color: #efefef;
+  display: flex;
+  margin-left: 2px;
+}
+.footer div{
+  text-align: center;
+}
+.col-2{
+  flex-grow: 2;
+}
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.col-2 a{
+  display: block;
+  text-decoration: none;
+  color: #efefef;
+  margin-bottom: 10px;
+}
+form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+form button{
+  background: transparent;
+  border: 2px solid black;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}   
+.foot-follow{
+  text-align: justify;
+}
+.footer:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  color: rgb(137, 137, 205);
+}
